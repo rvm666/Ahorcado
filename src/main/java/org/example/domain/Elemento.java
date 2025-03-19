@@ -1,9 +1,25 @@
 package org.example.domain;
 
+import java.util.Random;
+
 public class Elemento {
     private String id;
     private String palabra;
     private String categoria;
+
+
+    public Elemento(String id, String palabra, String categoria) {
+        this.id = id;
+        this.palabra = palabra;
+        this.categoria = categoria;
+    }
+
+    public Elemento(){
+        Random random = new Random();
+        this.id = String.valueOf(random.nextInt(100));
+        //this.palabra = new Faker().movie().name();
+        this.categoria = "movies";
+    }
 
     public String getId() {
         return id;

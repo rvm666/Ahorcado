@@ -4,6 +4,7 @@ import org.example.domain.Elemento;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Elementos {
     private final List<Elemento> listaElementos;
@@ -14,6 +15,16 @@ public class Elementos {
 
     public Elementos(){
         this.listaElementos = new ArrayList<Elemento>();
+
+        Random random = new Random();
+        String categoria = "movies";
+        for ( int i = 0; i <5; i++){
+            listaElementos.add(new Elemento());
+        }
+        categoria = "personajesTHeBigBangTHeory";
+        for (int i = 0; i <5; i++){
+          //  listaElementos.add(new Elemento(String.valueOf(random.nextInt())));
+        }
     }
 
     public List<Elemento> getListaElementos(){

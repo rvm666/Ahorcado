@@ -7,7 +7,11 @@
     <groupId>org.example</groupId>
     <artifactId>AhorcadoMOdeloCapas</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+      <dependency>
 
+      </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
