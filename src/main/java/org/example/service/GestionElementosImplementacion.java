@@ -3,7 +3,7 @@ package org.example.service;
 import org.example.dao.DaoElementos;
 import org.example.dao.DaoElementosImplementacion;
 
-public class GestionElementosImplementacion {
+public class GestionElementosImplementacion implements GestionElementos {
     private DaoElementos daoElementos;
 
     public GestionElementosImplementacion(DaoElementos daoElementos) {

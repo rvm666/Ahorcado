@@ -1,6 +1,6 @@
 package org.example.dao;
 
-public class DaoElementosImplementacion {
+public class DaoElementosImplementacion implements DaoElementos{
     private Elementos lista;
 
     public DaoElementosImplementacion(Elementos lista) {
